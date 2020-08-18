@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IJump
+public interface IDash
 {
     void Do (Player player);
 }

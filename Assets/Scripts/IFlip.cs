@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IFlip
 {
-    void DoFlip (Rigidbody rigidbody);
+    void Do (Player player);
 }

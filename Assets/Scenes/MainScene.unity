@@ -680,7 +680,14 @@ MonoBehaviour:
     type: 3}
   flipType: {fileID: 2766419050975570937, guid: 2cc6c1a52d3760642adde10cb5f2ec54,
     type: 3}
-  _state: 0
+  duckType: {fileID: 5166835780329426821, guid: 54ca801d054c632469f3f4c1833b505e,
+    type: 3}
+  dashType: {fileID: 9064595005148015085, guid: a22bf6002d724b04186172ebcbf2c3b5,
+    type: 3}
+  attackType: {fileID: 1715715482922724168, guid: 7ff2563875971d64893ad8b5df0b5e66,
+    type: 3}
+  mainRigidbody: {fileID: 0}
+  superDashCharge: 0
 --- !u!1 &1758777783
 GameObject:
   m_ObjectHideFlags: 3
