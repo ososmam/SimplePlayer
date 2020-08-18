@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class NormalJump : MonoBehaviour, IJump
 {
-    public void DoJump(Rigidbody rigidbody)
+    public void Do (Player player)
     {
-        rigidbody.AddForce(new Vector2(0, 400f));
+        player.mainRigidbody.AddForce (new Vector2 (0, 400f));
     }
 }

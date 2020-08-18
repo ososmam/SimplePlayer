@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IJump
+public interface IAttack
 {
-    void Do (Player player);
+    void Do ();
 }

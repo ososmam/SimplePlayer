@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class RotateFlip : MonoBehaviour, IFlip
 {
-    public void DoFlip(Rigidbody rigidbody)
+    public void Do(Player player)
     {
-        rigidbody.angularVelocity = new Vector3(0,0,rigidbody.angularVelocity.z+2);
+       player.mainRigidbody.angularVelocity = new Vector3(0,0,player.mainRigidbody.angularVelocity.z+2);
     }
 }
